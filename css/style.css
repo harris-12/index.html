@@ -1,0 +1,116 @@
+body{
+    background-image: url(../imgs/image5.jpg);
+    height: 100vh;
+    width: 99%;
+    background-size: 100%;
+
+    
+}
+
+
+header{
+    text-align: center;
+    text-shadow: 2px 2px white;
+    color: yellow;
+    font-size: 15px;
+    font-family: Arial;
+
+}
+h2{
+    color: white;
+}
+
+
+.nav{
+    color: white;
+    list-style-type: none;
+    height: 40px;
+    
+
+    
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+    
+}
+.nav>li{
+    float: left; 
+    padding: 10px;
+    
+}
+
+ li a{color: white;
+    transition: transform 2s;
+    
+}
+ .nav li a:hover{
+     
+     padding: 5px;
+     background-color: palevioletred;
+     transform: scale(1.1);
+     color: white;
+     border-radius: 5px;
+ }
+.content{
+     border: solid 2px blue; 
+    margin-bottom: 5px;
+   
+
+}
+.hidden{
+   display: none;
+     height: 0;
+    width: 0;
+    opacity: 0; 
+}
+div{
+    height: 100vh;
+}
+
+/* .badsegeberg4{
+    width: 90% */
+
+
+#badsegeberg1 img{
+    width: 100%; 
+    height: 80vh; 
+    background-size: 100% 100% ;
+    /* opacity: 0.5; */
+    background-image: url(../imgs/new5.jpg)
+    
+}
+#badsegeberg2 img{
+     width: 100%;
+    height: 80vh; 
+    background-size: 100% 100% ;}
+    
+    
+    #badsegeberg3 img{
+        width: 100%; 
+        height: 80vh; 
+        background-size: 100%  ;
+        
+    }
+        #badsegeberg4 img{
+             width: 100%; 
+            height: 80vh; 
+            background-size: 100%  
+            ;}
+            
+        
+
+footer{
+    text-align: center;
+    
+    /* border: blue 5px solid; */
+    color: white;
+}
+
+/* 
+    @keyframes slider{
+    0%{  background-image: url(../imgs/new5.jpg); }
+    25%{ background-image: url(../imgs/new2.jpg); }
+    50%{  background-image: url(../imgs/new3.jpg);}   
+
+        75%{  background-image: url(../imgs/new.jpg) }
+        100%{  background-image: url(../imgs/img123.JPG);}}  */
